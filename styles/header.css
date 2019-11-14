@@ -1,0 +1,138 @@
+/* header color */
+.navbar-light .navbar-nav .nav-link{
+color: #d33;
+}
+
+/* dropdown css */
+.dropdown-item{
+    color: #d33;
+}
+
+/* navbar color on hover */
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #79cba8;
+}
+
+/* navbar text align left */
+.navbar-nav{
+    margin-left: 700px;
+}
+
+
+/* media query for responsive */
+
+@media screen and (min-width: 320px) and (max-width: 480px) { 
+    .navbar-nav{
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar-nav{
+        margin-left: 0px;
+    }
+}  
+@media (min-width: 768px) and (max-width: 1023px){
+    
+    .navbar-nav{
+        margin-left: 0px;
+    }    
+  }
+  @media (min-width: 1024px) and (max-width: 1280px) {
+  
+    .navbar-nav{
+        margin-left: 350px;
+    }
+        
+  }
+  /* sticky navbar */
+  .main {
+      position: sticky;
+      top: 0;
+      font-family: lato,sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+  }
+
+/* add background image on header */
+  .backgroundImageHeader  {
+    background-image: url("/assets/download/hero5.jpg");
+  }
+  .responsive {
+    width: 26%;
+    height: auto;
+  }
+  /* COntent  and design start here*/
+  .wrapper{
+      padding-top: 150px;
+  }
+  #headingFontDesign{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+#paragraphDesign{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #696969;
+    line-height: 1.428571429;
+    font-weight: 400;
+}
+
+
+/* Our new products icons style start here*/
+.noo-product-filter {
+    margin-top: 40px
+}
+.noo-header-filter {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 25px;
+    text-align: center;
+}
+@media (min-width: 480px)
+{
+    .noo-header-filter li {
+    display: inline-block;
+    margin: 10px 0;
+    min-width: 100px;
+}
+}
+.noo-header-filter li {
+    padding-right: 35px;
+}
+.noo-header-filter li a{
+    cursor: pointer;
+    display: inline-block;
+}
+a {
+    color: #212121;
+    text-decoration: none;
+}
+.noo-header-filter li a img{
+    margin-bottom: 12px;
+}
+a{
+    text-decoration: none;
+}
+.noo-header-filter li a:hover span{
+    color: #79cba8
+}
+.noo-header-filter li a span{
+    display: block;
+    text-transform: uppercase;
+    -webkit-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+a{
+    text-decoration: none !important;
+    color: #212121
+}
+/* Our new products icons style end here*/
+
+
+/*  */
