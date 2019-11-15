@@ -52,6 +52,7 @@ color: #d33;
       font-family: lato,sans-serif;
       font-size: 16px;
       font-weight: 400;
+      z-index: 1;
   }
 
 /* add background image on header */

@@ -100,3 +100,50 @@ a{
     box-shadow: 0 0 29px 0 rgba(0,0,0,.18);
 }
 
+ #cards:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1); /* Safari 3-8 */
+  transform: scale(1.1); 
+  transition: all 0.8s ease 0s;
+}
+#cardsRow{
+  margin-top: 30px;
+}
+/* cards end  here */
+
+/* featured Items Section Start Here */
+
+#featured{
+  background-color: #f4eede;
+  margin-top: 150px;
+  padding: 50px;
+}
+/* featured Items Section end Here */
+
+ /* featured gallery Section start here */
+ * {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  /* float: left; */
+  width: 33.33%;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.featuredGallery .row{
+  margin: 0 !important;
+}
+.featuredGallery.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.featuredGallery .row .column img{
+  width: 100%;
+  height: auto;
+}
+  /* featured gallery Section end here */
+
