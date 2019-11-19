@@ -1,7 +1,58 @@
 /* COntent  and design start here*/
-body {
+ body {
     box-sizing: border-box;
 }
+
+/* font-size and style start here */
+a{
+  font-family: lato,sans-serif;
+  font-size: 14px;  
+  color: #696969;
+  font-weight: 400;
+}
+p{
+    font-family: lato,sans-serif;
+    font-size: 14px;  
+    color: #696969;
+    font-weight: 400;
+}
+span{
+  font-family: lato,sans-serif;
+  font-size: 14px;  
+  font-weight: 400;
+}
+label{
+  font-family: lato,sans-serif;
+  font-size: 14px;  
+  font-weight: 400;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+}
+h2{
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  font-weight: 400;
+}
+h3{
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+}
+h4{
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 20px;
+}
+h5{
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+}
+h6{
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+}
+/* font-size and style end here */
 
 .wrapper{
     padding-top: 150px;
@@ -126,24 +177,87 @@ a{
 }
 
 /* Create three equal columns that floats next to each other */
-.column {
+.gallery {
   /* float: left; */
   width: 33.33%;
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
-.featuredGallery .row{
-  margin: 0 !important;
+.featuredGallery{
+  overflow: hidden;
 }
 .featuredGallery.row:after {
   content: "";
   display: table;
   clear: both;
 }
-.featuredGallery .row .column img{
+.featuredGallery .row .gallery img{
   width: 100%;
   height: auto;
 }
+.lastRow{
+  margin-left: 33.33%;
+}
   /* featured gallery Section end here */
 
+
+
+  /* our team style start here */
+  .teamSection{
+    text-align: center;
+    padding-top: 150px;
+  }
+  .teamSection p{
+    padding: 0 22%;
+  }
+  #fontAwesomeIcons{
+    font-size: 25px;
+    color: #696969;
+  }
+  .featuredImages{
+    border: #f4eede 1px solid;
+  }
+  .featuredContent{
+    border: #f4eede 1px solid;
+    background-color:#f4eede ;
+  }
+  .featuredContent{
+    text-align: center;
+  }
+  .featuredCard:hover h4{
+    color: #fff;
+  }
+  .featuredCard:hover P{
+    color: #fff;
+  }
+  .featuredCard:hover #fontAwesomeIcons{
+    color: #fff;
+  }
+  .featuredCard:hover .featuredContent{
+    background-color: #79cba8;
+  }
+  .featuredCard:hover .featuredImages{
+    border: 1px solid #79cba8;
+  }
+  .featuredCard:hover .featuredImages{
+    /* background-color: #79cba8; */
+  
+  }
+  /* our team style end here */
+/* single image start here  */
+#singleImage img{
+  padding-top: 150px;
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+}
+/* single image end here */
+
+
+/* latest products start here */
+.latestProductImages img{
+  width: 100%;
+  height: auto;
+}
+/* latest product end here */
