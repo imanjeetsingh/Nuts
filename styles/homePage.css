@@ -38,11 +38,12 @@ h2{
 h3{
   font-family: 'Pacifico', cursive;
   font-weight: 400;
+  font-size: 24px;
 }
 h4{
   font-family: 'Pacifico', cursive;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
 h5{
   font-family: 'Pacifico', cursive;
@@ -221,6 +222,7 @@ a{
   .featuredContent{
     border: #f4eede 1px solid;
     background-color:#f4eede ;
+    padding: 20px;
   }
   .featuredContent{
     text-align: center;
@@ -231,8 +233,9 @@ a{
   .featuredCard:hover P{
     color: #fff;
   }
-  .featuredCard:hover #fontAwesomeIcons{
+  .featuredCard:hover #nutSocialLink{
     color: #fff;
+
   }
   .featuredCard:hover .featuredContent{
     background-color: #79cba8;
@@ -240,10 +243,7 @@ a{
   .featuredCard:hover .featuredImages{
     border: 1px solid #79cba8;
   }
-  .featuredCard:hover .featuredImages{
-    /* background-color: #79cba8; */
-  
-  }
+
   /* our team style end here */
 /* single image start here  */
 #singleImage img{
@@ -256,8 +256,177 @@ a{
 
 
 /* latest products start here */
+.latestProductSection{
+  text-align: center;
+}
+.latestProductSection:hover{
+  box-shadow: 0 -2px 29px 0 rgba(0,0,0,.15);
+  -webkit-transition: all .8s ease 0s;
+  -o-transition: all .8s ease 0s;
+  transition: all .8s ease 0s;
+}
+.latestProductSection:hover .latestProductImages img{
+  -ms-transform: scale(1.2); 
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.05); 
+  -webkit-transition: all .8s ease 0s;
+  -o-transition: all .8s ease 0s;
+  transition: all .8s ease 0s;
+}
 .latestProductImages img{
   width: 100%;
   height: auto;
+  margin-bottom: 20px;
 }
+#textSectionLatestProduct span a{
+  color: #f5a64a;
+}
+.latestProductSection #textSectionLatestProduct span a:hover{
+  color: #79cba8;
+  -webkit-transition: all .4s ease 0s;
+  -o-transition: all .4s ease 0s;
+  transition: all .4s ease 0s;
+}
+#textSectionLatestProduct span {
+  text-align: center;
+  text-transform: uppercase;
+}
+#viewMore{
+  color: #fff;
+  background-color: #79cba8;
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+}
+.latestProductSection:hover #viewMore{
+  background-color: #45b284;
+}
+#textSectionLatestProduct a h3{
+  font-family: lato,sans-serif;
+  line-height: 32px;
+  padding: 10px 3% 15px;
+  margin: 0;
+  font-size: 24px;
+}
+.latestProductSection:hover h3{
+  color: #79cba8;
+    text-decoration: none;
+}
+
 /* latest product end here */
+
+/* Testimonial styles start here  */
+.testStyle{
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.testimonial{
+  background: rgba(245,166,74,.8);
+}
+
+/* Testimonial styles end here  */
+
+/* about us style start here */
+.aboutUs {
+  background-image: url(/assets/download/newsletter.jpg) !important;
+}
+.aboutUs h1{
+  text-align: center;
+}
+.aboutUs div {
+  text-align: center;
+}
+.aboutUs div p{
+  padding: 0 30% 0 30%;
+}
+/* about us style end here */
+/* footer style start here */
+#footer{
+  padding-top: 150px;
+}
+.footerLogo{
+  text-align: center;
+}
+.footerLogo img{
+  margin-bottom: 12px;
+}
+.footerLogo  p{
+  padding: 0 32% 0 32%;
+}
+#nutSocialLink{
+  color: #696969;
+}
+.socialIcons #nutSocialLink{
+  font-size: 15px;
+  -webkit-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  transition: all .5s ease 0s;
+  border: 1px solid #696969;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.socialIcons #nutSocialLink:hover{
+  color: #fff;
+  background-color: #79cba8;
+}
+.footerSecondSection{
+  margin-top: 100px;
+}
+
+#footerFirstWidget .footerWidget{
+  text-align: center;
+}
+#footerFirstWidget p{
+  padding-top: 20px;
+  text-align: justify;
+}
+.widget.widget_text .copyright {
+  border-top: 1px dashed #f4eede;
+  padding-top: 20px;
+  color: #ababab;
+  font-style: italic;
+}
+.heart{
+  color: #79cba8;
+}
+
+#secondFooterWidget h4{
+  font-family: lato,sans-serif;
+  /* text-align: center; */
+}
+#secondFooterWidget h5{
+  font-family: lato,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+#thirdFooterWidget h4{
+  font-family: lato,sans-serif;
+  /* text-align: center; */
+}
+#thirdFooterWidget span{
+  display: block;
+  text-align: center;
+}
+
+.noo-bottom-bar-content {
+  background: #212121;
+  padding: 24px 0;
+  color: #ababab;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 50px;
+}
+.footerEnd{
+  color: #79cba8;
+}
+/* footer style end here */
+
