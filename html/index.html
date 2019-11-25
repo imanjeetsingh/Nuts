@@ -9,8 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.min.css">
     <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/footer.css">
     <link rel="stylesheet" href="/styles/homePage.css">
+
+
     <title>Nuts</title>
 </head>
 
@@ -30,7 +34,7 @@
                             <a class="nav-link" href="/html/index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/html/product.html">Products</a>
+                            <a class="nav-link" href="/html/Our-Story.html">Products</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Pricing</a>
@@ -63,7 +67,7 @@
 
         <div class="container wrapper">
             <div class="noRow">
-                <h2 id="headingFontDesign"> products</h2>
+                <h2 id="headingFontDesign"> Products</h2>
                 <p id="paragraphDesign"> Newest local organic delivered. The best organic food delivered to your door.
                 </p>
             </div>
@@ -184,36 +188,64 @@
         <!-- featured Items Section -->
 
         <!-- featured gallery Section -->
-        <div class="featuredGallery">
+        <div class="container-fluid" id="mainFeatureContainer">
             <div class="row">
-                <div class="gallery">
-                    <img src="/assets/download/product2_new.jpg" alt="">
+                <div class="col-4">
+                    <div class="bothSection">
+                    <div class="firstolummn">
+                        <img src="/assets/cashew/PKG_0247.JPG" alt="">
+                    </div>
+                    <div class="galleryContent"> 
+                            <h4>Cashew</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, exercitationem!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="gallery">
-                    <img src="/assets/download/product2_new.jpg" alt="">
+                <div class="col-4">
+                    <div class="secondColummn">
+                        <img src="/assets/cashew/PKG_0235.JPG" alt="">
+                    </div>
                 </div>
-                <div class="gallery">
-                    <img src="/assets/download/product3_new.jpg" alt="">
+                <div class="col-4">
+                    <div class="thirdColummn">
+                        <img src="/assets/cashew/PKG_0237.JPG" alt="">
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="gallery">
-                    <img src="/assets/download/product3_new.jpg" alt="">
+                <div class="col-4">
+                    <div class="firstolummn">
+                        <img src="/assets/cashew/PKG_0257.JPG" alt="">
+                    </div>
                 </div>
-                <div class="gallery">
-                    <img src="/assets/download/product2_new.jpg" alt="">
+                <div class="col-4">
+                    <div class="secondColummn">
+                        <img src="/assets/cashew/PKG_0256.JPG" alt="">
+                    </div>
                 </div>
-
+                <div class="col-4">
+                    <div class="thirdColummn">
+                        <img src="/assets/cashew/PKG_0202.JPG" alt="">
+                    </div>
+                </div>
             </div>
             <div class="row">
-                <div class="gallery lastRow">
-                    <img src="/assets/download/product2_new.jpg" alt="">
+                <div class="col-4">
+                    <div class="firstolummn">
+                        <img src="/assets/cashew/PKG_0203.JPG" alt="">
+                    </div>
                 </div>
-                <div class="gallery">
-                    <img src="/assets/download/product2_new.jpg" alt="">
+                <div class="col-4">
+                    <div class="secondColummn">
+                        <img src="/assets/cashew/PKG_0209.JPG" alt="">
+                    </div>
                 </div>
-
+                <div class="col-4">
+                    <div class="thirdColummn">
+                        <img src="/assets/cashew/PKG_0220.JPG" alt="">
+                    </div>
+                </div>
             </div>
         </div>
         <!-- featured gallery Section -->
@@ -221,79 +253,85 @@
 
         <!-- Our Team -->
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="teamSection">
-                        <h1>Featured Products</h1>
-                        <p>Our brilliant farmers believe in the mantra ‘Grow slow’, and giving brilliant food time to
-                            bake,
-                            grow, mature and ripen for the best taste possible.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="teamSection">
+                            <h1>Featured Products</h1>
+                            <p>Our brilliant farmers believe in the mantra ‘Grow slow’, and giving brilliant food time
+                                to
+                                bake,
+                                grow, mature and ripen for the best taste possible.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div class="featuredCard">
-                        <div class="featuredImages">
-                            <img src="/assets/cards/farme.webp" alt="">
-                        </div>
-                        <div class="featuredContent">
-                            <h4>Tristique</h4>
-                            <p>Meet the maker of our oranges – Tristique. It’s his juicy oranges from Mildura, Victoria
-                                that you’ll find in your fresh fruit delivery at Organici Store.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="featuredCard">
+                            <div class="featuredImages">
+                                <img src="/assets/cards/farme.webp" alt="">
+                            </div>
+                            <div class="featuredContent">
+                                <h4>Tristique</h4>
+                                <p>Meet the maker of our oranges – Tristique. It’s his juicy oranges from Mildura,
+                                    Victoria
+                                    that you’ll find in your fresh fruit delivery at Organici Store.</p>
 
-                            <span class="socialIcons">
-                                <a href="" class="fa fa-linkedin" id="nutSocialLink"> </a>
-                                <a href="#" class="fa fa-instagram" id="nutSocialLink"></a>
-                                <a href="#" class="fa fa-skype" id="nutSocialLink"></a>
-                                <a href="#" class="fa fa-twitter" id="nutSocialLink"></a>
-                                <a href="#" class="fa fa-google-plus" id="nutSocialLink"></a>
-                                <a href="#" class="fa fa-facebook" id="nutSocialLink"></a>
-                            </span>
+                                <span class="socialIcons">
+                                    <a href="" class="fa fa-linkedin" id="nutSocialLink"> </a>
+                                    <a href="#" class="fa fa-instagram" id="nutSocialLink"></a>
+                                    <a href="#" class="fa fa-skype" id="nutSocialLink"></a>
+                                    <a href="#" class="fa fa-twitter" id="nutSocialLink"></a>
+                                    <a href="#" class="fa fa-google-plus" id="nutSocialLink"></a>
+                                    <a href="#" class="fa fa-facebook" id="nutSocialLink"></a>
+                                </span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="featuredCard">
-                        <div class="featuredImages">
-                            <img src="/assets/cards/farme.webp" alt="">
-                        </div>
-                        <div class="featuredContent">
-                            <h4>Tristique</h4>
-                            <p>Meet the maker of our oranges – Tristique. It’s his juicy oranges from Mildura, Victoria
-                                that you’ll find in your fresh fruit delivery at Organici Store.</p>
+                    <div class="col-4">
+                        <div class="featuredCard">
+                            <div class="featuredImages">
+                                <img src="/assets/cards/farme.webp" alt="">
+                            </div>
+                            <div class="featuredContent">
+                                <h4>Tristique</h4>
+                                <p>Meet the maker of our oranges – Tristique. It’s his juicy oranges from Mildura,
+                                    Victoria
+                                    that you’ll find in your fresh fruit delivery at Organici Store.</p>
 
-                            <span class="socialIcons">
-                                <a href="" class="fa fa-linkedin" id="nutSocialLink"> </a>
-                                <a href="#" class="fa fa-instagram" id="nutSocialLink"></a>
-                                <a href="#" class="fa fa-skype" id="nutSocialLink"></a>
-                                <a href="#" class="fa fa-twitter" id="nutSocialLink"></a>
-                                <a href="#" class="fa fa-google-plus" id="nutSocialLink"></a>
-                                <a href="#" class="fa fa-facebook" id="nutSocialLink"></a>
-                            </span>
+                                <span class="socialIcons">
+                                    <a href="" class="fa fa-linkedin" id="nutSocialLink"> </a>
+                                    <a href="#" class="fa fa-instagram" id="nutSocialLink"></a>
+                                    <a href="#" class="fa fa-skype" id="nutSocialLink"></a>
+                                    <a href="#" class="fa fa-twitter" id="nutSocialLink"></a>
+                                    <a href="#" class="fa fa-google-plus" id="nutSocialLink"></a>
+                                    <a href="#" class="fa fa-facebook" id="nutSocialLink"></a>
+                                </span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-4">
-                    <div class="featuredCard">
-                        <div class="featuredImages">
-                            <img src="/assets/cards/farme.webp" alt="">
-                        </div>
-                        <div class="featuredContent">
-                            <h4>Tristique</h4>
-                            <p>Meet the maker of our oranges – Tristique. It’s his juicy oranges from Mildura, Victoria
-                                that you’ll find in your fresh fruit delivery at Organici Store.</p>
+                    <div class="col-4">
+                        <div class="featuredCard">
+                            <div class="featuredImages">
+                                <img src="/assets/cards/farme.webp" alt="">
+                            </div>
+                            <div class="featuredContent">
+                                <h4>Tristique</h4>
+                                <p>Meet the maker of our oranges – Tristique. It’s his juicy oranges from Mildura,
+                                    Victoria
+                                    that you’ll find in your fresh fruit delivery at Organici Store.</p>
 
-                            <span class="socialIcons">
-                                <a href="" class="fa fa-linkedin" id="nutSocialLink"> </a>
-                                <a href="#" class="fa fa-instagram" id="nutSocialLink"></a>
-                                <a href="#" class="fa fa-skype" id="nutSocialLink"></a>
-                                <a href="#" class="fa fa-twitter" id="nutSocialLink"></a>
-                                <a href="#" class="fa fa-google-plus" id="nutSocialLink"></a>
-                                <a href="#" class="fa fa-facebook" id="nutSocialLink"></a>
-                            </span>
+                                <span class="socialIcons">
+                                    <a href="" class="fa fa-linkedin" id="nutSocialLink"> </a>
+                                    <a href="#" class="fa fa-instagram" id="nutSocialLink"></a>
+                                    <a href="#" class="fa fa-skype" id="nutSocialLink"></a>
+                                    <a href="#" class="fa fa-twitter" id="nutSocialLink"></a>
+                                    <a href="#" class="fa fa-google-plus" id="nutSocialLink"></a>
+                                    <a href="#" class="fa fa-facebook" id="nutSocialLink"></a>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -308,95 +346,125 @@
         <!-- single  image -->
         <!-- latest products Section start here -->
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="teamSection">
-                        <h1>Latest Products</h1>
-                        <p>Our brilliant farmers believe in the mantra ‘Grow slow’, and giving brilliant food time to
-                            bake,
-                            grow, mature and ripen for the best taste possible.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div class="latestProductSection">
-                        <div class="latestProductImages">
-                            <img class="zoomIn" src="/assets/cashew/PKG_0240.jpg" alt="">
-                        </div>
-                        <div id="textSectionLatestProduct">
-                            <span><a href="" class="linkStyle">Cashew Kernels/</a></span>
-                            <span><a href="">Cashew 120/</a></span>
-                            <span><a href="">Cashew 240/</a></span>
-                            <span><a href="">Cashew 680</a></span>
-                            <a href="">
-                                <h3>Benefits of cashew</h3>
-                            </a>
-                            <p>As more and more people are turning to more organic lifestyles and trying to improve
-                                their health through adopting better</p>
-                            <a href="" id="viewMore">View More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="latestProductSection">
-                        <div class="latestProductImages">
-                            <img src="/assets/cashew/PKG_0240.jpg" alt="">
-                        </div>
-                        <div id="textSectionLatestProduct">
-                            <span><a href="" class="linkStyle">Cashew Kernels/</a></span>
-                            <span><a href="">Cashew 120/</a></span>
-                            <span><a href="">Cashew 240/</a></span>
-                            <span><a href="">Cashew 680</a></span>
-                            <a href="">
-                                <h3>Benefits of cashew</h3>
-                            </a>
-                            <p>As more and more people are turning to more organic lifestyles and trying to improve
-                                their health through adopting better</p>
-                            <a href="" id="viewMore">View More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="latestProductSection">
-                        <div class="latestProductImages">
-                            <img src="/assets/cashew/PKG_0240.jpg" alt="">
-                        </div>
-                        <div id="textSectionLatestProduct">
-                            <span><a href="" class="linkStyle">Cashew Kernels/</a></span>
-                            <span><a href="">Cashew 120/</a></span>
-                            <span><a href="">Cashew 240/</a></span>
-                            <span><a href="">Cashew 680</a></span>
-                            <a href="">
-                                <h3>Benefits of cashew</h3>
-                            </a>
-                            <p>As more and more people are turning to more organic lifestyles and trying to improve
-                                their health through adopting better</p>
-                            <a href="" id="viewMore">View More</a>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="teamSection">
+                            <h1>Latest Products</h1>
+                            <p>Our brilliant farmers believe in the mantra ‘Grow slow’, and giving brilliant food time
+                                to
+                                bake,
+                                grow, mature and ripen for the best taste possible.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="latestProductSection">
+                            <div class="latestProductImages">
+                                <img class="zoomIn" src="/assets/cashew/PKG_0240.jpg" alt="">
+                            </div>
+                            <div id="textSectionLatestProduct">
+                                <span><a href="" class="linkStyle">Cashew Kernels/</a></span>
+                                <span><a href="">Cashew 120/</a></span>
+                                <span><a href="">Cashew 240/</a></span>
+                                <span><a href="">Cashew 680</a></span>
+                                <a href="">
+                                    <h3>Benefits of cashew</h3>
+                                </a>
+                                <p>As more and more people are turning to more organic lifestyles and trying to improve
+                                    their health through adopting better</p>
+                                <a href="" id="viewMore">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="latestProductSection">
+                            <div class="latestProductImages">
+                                <img src="/assets/cashew/PKG_0240.jpg" alt="">
+                            </div>
+                            <div id="textSectionLatestProduct">
+                                <span><a href="" class="linkStyle">Cashew Kernels/</a></span>
+                                <span><a href="">Cashew 120/</a></span>
+                                <span><a href="">Cashew 240/</a></span>
+                                <span><a href="">Cashew 680</a></span>
+                                <a href="">
+                                    <h3>Benefits of cashew</h3>
+                                </a>
+                                <p>As more and more people are turning to more organic lifestyles and trying to improve
+                                    their health through adopting better</p>
+                                <a href="" id="viewMore">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="latestProductSection">
+                            <div class="latestProductImages">
+                                <img src="/assets/cashew/PKG_0240.jpg" alt="">
+                            </div>
+                            <div id="textSectionLatestProduct">
+                                <span><a href="" class="linkStyle">Cashew Kernels/</a></span>
+                                <span><a href="">Cashew 120/</a></span>
+                                <span><a href="">Cashew 240/</a></span>
+                                <span><a href="">Cashew 680</a></span>
+                                <a href="">
+                                    <h3>Benefits of cashew</h3>
+                                </a>
+                                <p>As more and more people are turning to more organic lifestyles and trying to improve
+                                    their health through adopting better</p>
+                                <a href="" id="viewMore">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
         <!-- latest products Section end here -->
 
 
-        <!--Testimonial start here  -->
+        <!--Testimonial slider start here  -->
 
-        <div class="container testStyle">
-            <div class="row">
+        <h1 id="homeCarouselHeading">
+            Testimonial Carousel
+        </h1>
+
+        <div class="main-gallery">
+            <div class="gallery-cell">
                 <div class="testimonial">
-
-                    <span> <img src="/assets/download/image_left.webp" alt=""></span>
-                    <span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero nobis dicta </span>
-                    <span> <img src="/assets/download/image_right.webp" alt=""></span>
+                    <img class="testimonial-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg">
+                    <p class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris
+                        ex,
+                        gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla."</p>
+                    <h4 class="testimonial-author">Joe Smith, CEO of Cubix</h4>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="testimonial">
+                    <img class="testimonial-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/chexee/128.jpg">
+                    <p class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris
+                        ex,
+                        gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla."</p>
+                    <h4 class="testimonial-author">Joe Smith, CEO of Cubix</h4>
+                </div>
+            </div>
+            <div class="gallery-cell">
+                <div class="testimonial">
+                    <img class="testimonial-avatar"
+                        src="https://s3.amazonaws.com/uifaces/faces/twitter/andretacuyan/128.jpg">
+                    <p class="testimonial-quote">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris
+                        ex,
+                        gravida ut leo eu, rhoncus porta orci. Fusce vitae rutrum nulla."</p>
+                    <h4 class="testimonial-author">Joe Smith, CEO of Cubix</h4>
                 </div>
             </div>
         </div>
-        <!--Testimonial end here  -->
+
+
+        <!--Testimonial slider end here  -->
+
+
         <!-- about us start here -->
         <div class="container-fluid aboutUs">
             <div class="row">
@@ -410,6 +478,8 @@
                 </div>
             </div>
         </div>
+
+
         <!-- about Us end here -->
 
         <!-- footer start here -->
@@ -469,7 +539,7 @@
                             <p><a href="tel:84412345678">(+844) 123 456 78</a><br> <a href="tel:84488897989">(+844) 888
                                     97989</a></p>
                             <h5>Email</h5>
-                            <p><a href="contact@organicistore.com">contact@organicistore.com</a></p>
+                            <p><a href="contact@organicistore.com">contact@nuts.com</a></p>
                         </div>
                     </div>
                     <div class="col-3">
@@ -506,9 +576,11 @@
         <!-- footer end here -->
     </div>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="/js/header.js"></script>
+    <script src="/js/carousel.js"></script>
 </body>
 
 </html>

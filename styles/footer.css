@@ -1,0 +1,89 @@
+#footer{
+  padding-top: 150px;
+}
+.footerLogo{
+  text-align: center;
+}
+.footerLogo img{
+  margin-bottom: 12px;
+}
+.footerLogo  p{
+  padding: 0 32% 0 32%;
+}
+#nutSocialLink{
+  color: #696969;
+}
+.socialIcons #nutSocialLink{
+  font-size: 15px;
+  -webkit-transition: all .5s ease 0s;
+  -o-transition: all .5s ease 0s;
+  transition: all .5s ease 0s;
+  border: 1px solid #696969;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.socialIcons #nutSocialLink:hover{
+  color: #fff;
+  background-color: #79cba8;
+}
+.footerSecondSection{
+  margin-top: 100px;
+}
+
+#footerFirstWidget .footerWidget{
+  text-align: center;
+}
+#footerFirstWidget p{
+  padding-top: 20px;
+  text-align: justify;
+}
+.widget.widget_text .copyright {
+  border-top: 1px dashed #f4eede;
+  padding-top: 20px;
+  color: #ababab;
+  font-style: italic;
+}
+.heart{
+  color: #79cba8;
+}
+
+#secondFooterWidget h4{
+  font-family: lato,sans-serif;
+  /* text-align: center; */
+}
+#secondFooterWidget h5{
+  font-family: lato,sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+#secondFooterWidget a:hover{
+  color: #79cba8;
+    -o-transition: all .3s linear 0s;
+    transition: all .3s linear 0s
+}
+
+#thirdFooterWidget h4{
+  font-family: lato,sans-serif;
+  /* text-align: center; */
+}
+#thirdFooterWidget span{
+  display: block;
+  text-align: center;
+}
+
+.noo-bottom-bar-content {
+  background: #212121;
+  padding: 24px 0;
+  color: #ababab;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 50px;
+}
+.footerEnd{
+  color: #79cba8;
+}

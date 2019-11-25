@@ -20,6 +20,7 @@ span{
   font-family: lato,sans-serif;
   font-size: 14px;  
   font-weight: 400;
+  color: #696969;
 }
 label{
   font-family: lato,sans-serif;
@@ -173,33 +174,78 @@ a{
 /* featured Items Section end Here */
 
  /* featured gallery Section start here */
- * {
-  box-sizing: border-box;
+ #mainFeatureContainer img{
+   width: 100%;
+   height: auto;
+ }
+ #mainFeatureContainer .col-4{
+   margin: 0;
+   padding: 0;
+ }
+ .firstolummn{
+   position: absolute;
+ }
+ .galleryContent p{
+  display: none;
+  top: 240px;
+}
+.bothSection .galleryContent{
+  position: relative;
+  text-align: center;
+  top: 240px;
+  -webkit-transition: all .8s ease 0s;
+  -o-transition: all .8s ease 0s;
+  transition: all .8s ease 0s
 }
 
-/* Create three equal columns that floats next to each other */
-.gallery {
-  /* float: left; */
-  width: 33.33%;
-  height: 300px; /* Should be removed. Only for demonstration */
+.bothSection:hover .galleryContent h4{
+  position: relative;
+  text-align: center;
+  bottom: 140px;
+  -webkit-transition: all .8s ease 0s;
+  -o-transition: all .8s ease 0s;
+  transition: all .8s ease 0s
 }
 
-/* Clear floats after the columns */
-.featuredGallery{
+.bothSection:hover .galleryContent p{
+  display: block;
+  top: 240px;
+  -webkit-transition: all .8s ease 0s;
+  -o-transition: all .8s ease 0s;
+  transition: all .8s ease 0s
+}
+/* .gallery .galleryHeadingFirst{
+  position: relative;
+  text-align: center;
+  bottom: 53px;
+  font-size: 24px;
+  color: #fff;
   overflow: hidden;
+  -webkit-transition: all .8s ease 0s;
+  -o-transition: all .8s ease 0s;
+  transition: all .8s ease 0s
 }
-.featuredGallery.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.gallery .galleryInformationFirst{
+  text-align: center;
+  overflow: hidden;
+  bottom: 0px;
+
 }
-.featuredGallery .row .gallery img{
-  width: 100%;
-  height: auto;
+.gallery:hover .galleryHeadingFirst{
+  bottom: 153px;
+  -webkit-transition: all .8s ease 0s;
+  -o-transition: all .8s ease 0s;
+  transition: all .8s ease 0s
 }
-.lastRow{
-  margin-left: 33.33%;
-}
+.gallery:hover .galleryInformationFirst{
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  bottom: 153px;
+  -webkit-transition: all .8s ease 0s;
+  -o-transition: all .8s ease 0s;
+  transition: all .8s ease 0s
+} */
   /* featured gallery Section end here */
 
 
@@ -320,19 +366,15 @@ a{
 /* latest product end here */
 
 /* Testimonial styles start here  */
-.testStyle{
-  padding-top: 150px;
-  padding-bottom: 150px;
-}
-.testimonial{
-  background: rgba(245,166,74,.8);
-}
+
 
 /* Testimonial styles end here  */
 
 /* about us style start here */
 .aboutUs {
   background-image: url(/assets/download/newsletter.jpg) !important;
+  margin-top: 150px;
+  padding: 62px;
 }
 .aboutUs h1{
   text-align: center;
@@ -344,89 +386,62 @@ a{
   padding: 0 30% 0 30%;
 }
 /* about us style end here */
-/* footer style start here */
-#footer{
-  padding-top: 150px;
+
+/* carousel start here */
+
+  
+.main-gallery {
+  margin-top: 150px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);  
+  background-color:rgba(245,166,74,.8)
 }
-.footerLogo{
+
+.gallery-cell {
+  width: 100%;
+}
+
+.gallery-cell p{
+  /* color: #fff; */
+  font-weight: 500;
+  font-style: italic;
+  font-size: 20px;
+}
+.gallery-cell h4{
+  /* color: #fff; */
+  font-size: 24px;
+}
+.testimonial {
   text-align: center;
+  margin: 100px auto 130px auto;
 }
-.footerLogo img{
-  margin-bottom: 12px;
+
+.testimonial-avatar {
+  width: 100px;
+  border-radius: 50%;
 }
-.footerLogo  p{
-  padding: 0 32% 0 32%;
+
+.testimonial-quote {
+  display: block;
+  padding: 10px 0;
 }
-#nutSocialLink{
+
+.testimonial-author{
   color: #696969;
 }
-.socialIcons #nutSocialLink{
-  font-size: 15px;
-  -webkit-transition: all .5s ease 0s;
-  -o-transition: all .5s ease 0s;
-  transition: all .5s ease 0s;
-  border: 1px solid #696969;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-}
-.socialIcons #nutSocialLink:hover{
-  color: #fff;
-  background-color: #79cba8;
-}
-.footerSecondSection{
-  margin-top: 100px;
-}
 
-#footerFirstWidget .footerWidget{
-  text-align: center;
+#homeCarouselHeading{
+    text-align: center;
+    position: relative;
+    top: 220px;
+    z-index: 1;
+    color: #696969;
 }
-#footerFirstWidget p{
-  padding-top: 20px;
-  text-align: justify;
-}
-.widget.widget_text .copyright {
-  border-top: 1px dashed #f4eede;
-  padding-top: 20px;
-  color: #ababab;
-  font-style: italic;
-}
-.heart{
-  color: #79cba8;
-}
+/* carousel end here */
 
-#secondFooterWidget h4{
-  font-family: lato,sans-serif;
-  /* text-align: center; */
-}
-#secondFooterWidget h5{
-  font-family: lato,sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-}
-#thirdFooterWidget h4{
-  font-family: lato,sans-serif;
-  /* text-align: center; */
-}
-#thirdFooterWidget span{
-  display: block;
-  text-align: center;
-}
 
-.noo-bottom-bar-content {
-  background: #212121;
-  padding: 24px 0;
-  color: #ababab;
-  font-size: 14px;
-  font-weight: 300;
-  text-align: center;
-  margin-top: 50px;
-}
-.footerEnd{
-  color: #79cba8;
-}
-/* footer style end here */
-
+    /* z-index: 2;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    -webkit-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s; */
