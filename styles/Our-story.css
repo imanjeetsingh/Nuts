@@ -1,6 +1,28 @@
-/* banner image start here */
-/* .ourStoryBackground img{
+/* background image start here */
+.ourStoryBackground img{
     width: 100%;
     height: auto;
-} */
-/* banner image end here */
+}
+.headerBanner {
+    -webkit-filter: grayscale(55%); 
+    filter: grayscale(55%);                                                                                                                                                        m
+}
+/* background image end here */
+
+/* twoColumn-section start here */
+.twoColumnSection{
+    padding-top: 100px;
+}
+.ContentFirstSection h2{
+    padding: 0 25%;
+    margin: 0 0 50px;
+}
+.ourStoryContent p{
+    padding: 0 10% 26px;
+}
+.seconCarouselImageSection img{
+    width: 100%;
+    height: auto;
+    padding-top: 24%;
+}
+/* two column section end here */

@@ -1,0 +1,95 @@
+/*gallery upper part styles start here */
+.displayImages{
+    text-align: center;
+    margin-top: 150px;
+}
+/*gallery upper part styles end here */
+
+/* gallery content start here */
+.gallerySection{
+    margin-top: 150px;
+    text-align: center;
+}
+#galeeryHeading{
+    padding-right: 25%;
+    padding-left: 25%;
+}
+/* gallery content end here */
+
+/* gallery images styles start here  */
+.SecondCardSection{
+    border-radius: 10px;
+}
+.galleryImage img{
+    width: 100%;
+    height: auto;
+}
+.galleryContentBox{
+    text-align: center;
+}
+.galleryBox{
+    border: 1px solid #f4eede;
+    -webkit-transition: all .6s ease 0s;
+    -o-transition: all .6s ease 0s;
+    transition: all .6s ease 0s;
+    position: relative;
+    margin: 15px 0;
+}
+.galleryBox:hover{
+    -webkit-box-shadow: 0 0 29px 0 rgba(0,0,0,.18);
+    box-shadow: 0 0 29px 0 rgba(0,0,0,.18);
+}
+.galleryContentBox{
+    border: 1px solid #f4eede;
+    padding: 30px;
+    text-align: center;
+}
+.hidennDiv{
+    display: none;
+}
+.SecondCardSection:hover .mainContent{
+    display: none;
+}
+.SecondCardSection:hover .hidennDiv{
+    display: block;
+}
+/* gallery images styles end here  */
+
+
+
+/*  */
+/*  */
+/*  */
+.portfolioDisc {
+	width: 300px;
+    height: 0px;
+	padding-top: 0px;
+    overflow:hidden;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    margin-top:300px;
+	position:absolute;
+	background-color:#000;
+	font-size: 15px;
+	line-height: 18px;
+	text-align:center;
+	color: #FFF;
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+}
+
+.port {
+	background-color: red;
+	width:300px;
+	height: 300px;
+	position:relative;
+	}
+
+
+.port:hover .portfolioDisc {
+	margin-top:221px;
+    height:69px;
+	padding-top: 10px;
+	
+}
